@@ -1,0 +1,22 @@
+name: Idee oder Wunsch / Idea or request
+description: Ein Vorschlag, was die App zusätzlich können sollte.
+labels: ["idee"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Deutsch oder Englisch, beides ist willkommen. **Keine persönlichen
+        Daten** – dieses Repository ist öffentlich.
+  - type: textarea
+    id: idee
+    attributes:
+      label: Was fehlt dir?
+      description: Beschreibe, was du erreichen willst – nicht nur, wie es
+        technisch gelöst werden soll. Oft gibt es einen einfacheren Weg.
+    validations:
+      required: true
+  - type: textarea
+    id: heute
+    attributes:
+      label: Wie behilfst du dir heute?
+      description: Freiwillig, hilft aber einzuschätzen, wie dringend es ist.

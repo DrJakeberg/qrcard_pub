@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Frage per E-Mail
+    url: mailto:qrcode@cyb8.de
+    about: Für alles, was nicht öffentlich stehen soll – oder wenn du kein
+      GitHub-Konto hast.
+  - name: Datenschutzerklärung
+    url: https://qrcode.cyb8.de/privacy.html
+    about: Was die App speichert (alles bleibt auf dem Gerät) und was nicht.
